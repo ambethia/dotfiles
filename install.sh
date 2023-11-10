@@ -8,5 +8,4 @@ fi
 
 chsh -s /bin/zsh ${whoami}
 
-ln -sf "$DOTFILES/.zprofile" ~/.zprofile
 ln -sf "$DOTFILES/.zshrc" ~/.zshrc
