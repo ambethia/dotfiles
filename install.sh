@@ -14,5 +14,5 @@ if [[ ! -d ~/.config ]]; then
   mkdir -p ~/.config
 fi
 
-ln -sf "$DOTFILES/.zprofile" ~/.zprofile
+ln -sf "$DOTFILES/.zshrc" ~/.zshrc
 ln -sf "$DOTFILES/starship.toml" ~/.config/starship.toml
