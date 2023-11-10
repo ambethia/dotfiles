@@ -6,6 +6,8 @@ if [[ "$CODESPACES" = "true" ]] && [[ -d /workspaces/.codespaces/.persistedshare
   ln -sf /workspaces/.codespaces/.persistedshare/dotfiles "$DOTFILES"
 fi
 
+chsh -s /bin/zsh ${whoami}
+
 curl -sS https://starship.rs/install.sh | sh -s -- --yes
 
 if [[ ! -d ~/.config ]]; then
