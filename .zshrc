@@ -1,5 +1,7 @@
 # Plugins
 
+mkdir -p ~/.zsh
+
 if [[ ! -d ~/.zsh/autosuggestions ]]; then git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/autosuggestions; fi
 source ~/.zsh/autosuggestions/zsh-autosuggestions.plugin.zsh
 
